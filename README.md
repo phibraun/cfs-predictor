@@ -16,10 +16,10 @@ This project investigates predictors of Chronic Fatigue Syndrome (CFS) using hea
 ## How to Run
 1. Install required R packages:
     ```R
-    install.packages(c("tidyverse", "caret", "pROC", "ggplot2"))
+    install.packages(c("caret", "pROC", "ggplot2", "corrplot", "glmnet", "broom", "car"))
     ```
-2. Open `cfs_predictor_analysis.Rmd`
-3. Knit the document or run the script manually.
+2. Open `cfs_predictor_analysis.R`
+3. Run the script manually.
 
 ## Data Source
 - [Health Survey Dataset on Kaggle](https://www.kaggle.com/datasets/aradhanahirapara/healthcare-survey)  
